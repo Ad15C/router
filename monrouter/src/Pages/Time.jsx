@@ -5,6 +5,8 @@ const Time = () => {
         <div className="Time">
             <h1>Heure</h1>
             <p>Nous sommes aujourd'hui le:</p>
+            <p>Heure</p>
+            <p>Jour</p>
         </div>
     );
 }
