@@ -8,7 +8,9 @@ import About from './Pages/About';
 
 function App() {
   return (
-    <div className="App">      
+    <div className="App"> 
+    <div className='App-header'>
+      <h1>Bienvenue sur mon router</h1>  
       <nav>
         <Link to='/'>Accueil</Link>
         <Link to='/About'>A Propos</Link>
@@ -22,7 +24,7 @@ function App() {
         <Route path="/Contact" element={<Contact />}></Route>
         <Route path="/Time" element={<Time />}></Route>
       </Routes>
-   
+      </div>
     </div>
   );
 }
